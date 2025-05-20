@@ -79,8 +79,36 @@ ul {
   height: 5rem;
 }
 
+/* MAIN */
+
 #page-main {
   background-color: #1c1c1c;
   color: white;
   padding: 3rem;
+}
+
+/* ICON BAR */
+
+#icon-bar {
+  background-color: #0282f9;
+  color: white;
+  padding: 3rem;
+}
+
+#icon-bar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 15px;
+}
+
+#icon-bar ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#icon-bar ul li .icon {
+  width: 3rem;
 }
