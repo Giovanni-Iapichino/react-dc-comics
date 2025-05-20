@@ -1,6 +1,7 @@
-import Header from "../components/Header";
-import Main from "../components/Main";
-import IconBar from "../components/Iconbar";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import IconBar from "./components/Iconbar";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Header />
       <Main />
       <IconBar />
+      <Footer />
     </>
   );
 }
