@@ -144,6 +144,7 @@ ul {
 .footer-bottom {
   padding: 2rem;
   background-color: #303030;
+  position: relative;
 }
 
 .sign-up {
@@ -157,4 +158,12 @@ ul {
 
 .footer-bottom .row {
   justify-content: space-between;
+}
+
+.big-logo {
+  position: absolute;
+  position: absolute;
+  right: 340px;
+  top: 344px;
+  width: 572px;
 }

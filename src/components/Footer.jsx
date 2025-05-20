@@ -50,6 +50,11 @@ export default function Footer() {
                 <li>DC Power Visa</li>
               </ul>
             </div>
+            <img
+              className="big-logo"
+              src="src\assets\img\dc-logo-bg.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
