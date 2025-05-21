@@ -48,6 +48,25 @@ ul {
   width: calc(100% / 7);
 }
 
+/* UI */
+
+.alert {
+  border: 1px solid currentColor;
+  padding: 1rem 2rem;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.alert.alert-info {
+  background-color: #029ef9;
+  color: rgb(0, 47, 255);
+}
+
+.alert.alert-danger {
+  background-color: rgba(255, 0, 0, 0.479);
+  color: rgba(255, 0, 21, 0.822);
+}
+
 /* HEADER */
 
 #page-header .container {

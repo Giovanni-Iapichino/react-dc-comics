@@ -1,6 +1,12 @@
+import Alert from "./ui/Alert";
+
 export default function Header() {
   return (
     <header id="page-header">
+      <Alert
+        type="info"
+        text="Preferisco la Marvel ma Batman non è poi così male."
+      />
       <div className="container">
         <div className="logo">
           <img src="src/assets/img/dc-logo.png"></img>
