@@ -125,6 +125,7 @@ ul {
 .footer-top ul li {
   font-size: 13px;
   color: #959595;
+  padding-bottom: 0.5rem;
 }
 
 .footer-top ul {
@@ -165,5 +166,5 @@ ul {
   position: absolute;
   right: 340px;
   top: 344px;
-  width: 572px;
+  width: 605px;
 }
