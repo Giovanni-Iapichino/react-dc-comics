@@ -139,6 +139,12 @@ ul {
   position: relative;
 }
 
+.card-media img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: top;
+}
+
 .load-more {
   display: flex;
   justify-content: center;
