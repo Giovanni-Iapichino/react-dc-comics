@@ -5,12 +5,13 @@ export default function Main({ comics }) {
     <main id="page-main">
       <div className="jumbotron"></div>
       <div className="container">
+        <div className="current-series">CURRENT SERIES</div>
         <section className="main-content">
           <ComicList comics={comics} />
-          <div>
-            <button className="load-more">LOAD MORE</button>
-          </div>
         </section>
+        <div className="load-more">
+          <button>LOAD MORE</button>
+        </div>
       </div>
     </main>
   );
