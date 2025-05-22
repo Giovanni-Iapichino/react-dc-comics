@@ -48,6 +48,10 @@ ul {
   width: calc(100% / 7);
 }
 
+.col-1-6 {
+  width: calc(100% / 6);
+}
+
 /* UI */
 
 .alert {
@@ -103,7 +107,23 @@ ul {
 #page-main {
   background-color: #1c1c1c;
   color: white;
-  padding: 3rem;
+}
+
+.card {
+  padding: 1rem;
+}
+
+.jumbotron {
+  height: 350px;
+  background-image: url(src/assets/img/jumbotron.jpg);
+  background-size: cover;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+.load-more {
 }
 
 /* ICON BAR */
@@ -184,6 +204,6 @@ ul {
 .big-logo {
   position: absolute;
   right: 340px;
-  top: 429px;
-  width: 605px;
+  top: 1415px;
+  width: 574px;
 }
